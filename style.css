@@ -106,12 +106,29 @@
     transform: scale(1.2);
 }
 
+
+/* Esercizio 10 */
+
 .ex-10-icon {
     font-size: 60px;
+    animation: spin 1s linear infinite;
 }
+
+@keyframes spin {
+    0% { 
+        transform: 
+        rotate(1turn);
+    }
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
+.ex-11-icon:hover {
+    transform: rotate(270deg);
+    transition: 1s;
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
