@@ -126,10 +126,12 @@
 
 .ex-11-icon {
     font-size: 60px;
+    transition: 0.1s;
 }
 .ex-11-icon:hover {
     transform: rotate(270deg);
-    transition: 1s;
+    transition: 2s;
+    
 }
 
 
