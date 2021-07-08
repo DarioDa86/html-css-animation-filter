@@ -111,10 +111,11 @@
 
 .ex-10-icon {
     font-size: 60px;
-    animation: spin 1s linear infinite;
+    animation: 1s linear infinite;
+    animation-name: download;
 }
 
-@keyframes spin {
+@keyframes download {
     0% { 
         transform: 
         rotate(1turn);
@@ -270,7 +271,7 @@
         bottom: -10px;
         right: 20%;
     }
-}
+
 }
 
 
